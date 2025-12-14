@@ -5,7 +5,7 @@ void sort_it(int *array, int low, int high, size_t size);
 int partition_it(int *array, int low, int high, size_t size);
 void swap_it(int *a, int *b);
 /**
- * quick-sort - sorts an array of ints in ascending order using 
+ * quick_sort - sorts an array of ints in ascending order using
  * quick sort algorithm
  * @array: pointer to array to sort
  * @size: size of array
@@ -18,9 +18,9 @@ void quick_sort(int *array, size_t size)
 }
 
 /**
- * sort_it - recursively sorts through the array calling 
+ * sort_it - recursively sorts through the array calling
  * partition if low < high
- * 2array: pointer to array
+ * @array: pointer to array
  * @low: index to the low value
  * @high: index to the high value
  * @size: size of the array
@@ -40,7 +40,7 @@ void sort_it(int *array, int low, int high, size_t size)
 }
 
 /**
- * paritition_it - partitions the array with low on the left and high 
+ * paritition_it - partitions the array with low on the left and high
  * on the right
  * @array: pointer to the array
  * @low: index to the low value
