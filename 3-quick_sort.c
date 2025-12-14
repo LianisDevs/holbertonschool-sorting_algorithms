@@ -40,7 +40,7 @@ void sort_it(int *array, int low, int high, size_t size)
 }
 
 /**
- * paritition_it - partitions the array with low on the left and high
+ * partition_it - partitions the array with low on the left and high
  * on the right
  * @array: pointer to the array
  * @low: index to the low value
